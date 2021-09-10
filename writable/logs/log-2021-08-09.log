@@ -1,0 +1,153 @@
+ERROR - 2021-08-09 08:14:21 --> Column 'jenkel' cannot be null
+CRITICAL - 2021-08-09 08:14:21 --> Column 'jenkel' cannot be null
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ce...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ce...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ce...')
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ce...', Array, false)
+#4 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(89): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-09 11:25:24 --> Column 'status' cannot be null
+CRITICAL - 2021-08-09 11:25:24 --> Column 'status' cannot be null
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ce...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ce...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ce...')
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ce...', Array, false)
+#4 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(84): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-09 11:26:01 --> Column 'status' cannot be null
+CRITICAL - 2021-08-09 11:26:01 --> Column 'status' cannot be null
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ce...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ce...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ce...')
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ce...', Array, false)
+#4 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(84): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-09 11:33:58 --> Column 'jenkel' cannot be null
+CRITICAL - 2021-08-09 11:33:58 --> Column 'jenkel' cannot be null
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ce...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ce...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ce...')
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ce...', Array, false)
+#4 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(84): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-09 11:43:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN bagian ON bagian.id_bagian = cekin.bagian_id JOIN guru ON guru.id_guru =...' at line 1
+CRITICAL - 2021-08-09 11:43:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN bagian ON bagian.id_bagian = cekin.bagian_id JOIN guru ON guru.id_guru =...' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->index()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-09 11:43:48 --> Column 'created_at' in order clause is ambiguous
+CRITICAL - 2021-08-09 11:43:48 --> Column 'created_at' in order clause is ambiguous
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->index()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-09 11:43:50 --> Column 'created_at' in order clause is ambiguous
+CRITICAL - 2021-08-09 11:43:50 --> Column 'created_at' in order clause is ambiguous
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->index()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-09 11:43:52 --> Column 'created_at' in order clause is ambiguous
+CRITICAL - 2021-08-09 11:43:52 --> Column 'created_at' in order clause is ambiguous
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->index()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-09 12:15:36 --> Too few arguments to function App\Controllers\CekinController::htmlToPDF(), 0 passed in C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 12:15:47 --> Too few arguments to function App\Controllers\CekinController::htmlToPDF(), 0 passed in C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 12:15:48 --> Too few arguments to function App\Controllers\CekinController::htmlToPDF(), 0 passed in C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 12:16:40 --> Too few arguments to function App\Controllers\CekinController::htmlToPDF(), 0 passed in C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 12:16:41 --> Too few arguments to function App\Controllers\CekinController::htmlToPDF(), 0 passed in C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 12:17:12 --> Too few arguments to function App\Controllers\CekinController::htmlToPDF(), 0 passed in C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 12:17:14 --> Too few arguments to function App\Controllers\CekinController::htmlToPDF(), 0 passed in C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 12:20:15 --> compact(): Undefined variable: Cekin/pdf_view
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 188, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(188): compact('Cekin/pdf_view', Array)
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('7')
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 21:58:48 --> Undefined index: tujuan
+#0 C:\xampp\htdocs\v2\app\Views\Cekin\pdf_view.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Cekin/pdf_view', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(188): view('Cekin/pdf_view', Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('7')
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

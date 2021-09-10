@@ -1,0 +1,626 @@
+CRITICAL - 2021-07-25 01:23:56 --> Class 'App\Controllers\Endroid\QrCode\QrCode' not found
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 01:25:57 --> Class 'vendor\Endroid\QrCode\QrCode' not found
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 01:26:09 --> Class 'App\Controllers\vendor\Endroid\QrCode\QrCode' not found
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 01:26:20 --> Call to undefined method Endroid\QrCode\QrCode::getContentType()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 01:27:40 --> Call to undefined method Endroid\QrCode\QrCode::getMimeType()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 01:31:23 --> Invalid data at path "C:\xampp\htdocs\V2\app\Controllers/assets/symfony.png"
+#0 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Builder\Builder.php(208): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label), Array)
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(138): Endroid\QrCode\Builder\Builder->build()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-25 01:31:48 --> Call to undefined method Endroid\QrCode\QrCode::getContentType()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 01:34:58 --> Object of class Endroid\QrCode\QrCode could not be converted to string
+#0 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(124): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-25 01:35:12 --> Call to undefined method Endroid\QrCode\QrCode::writeString()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 01:36:03 --> Call to undefined method Endroid\QrCode\QrCode::getString()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 01:37:00 --> Call to undefined method Endroid\QrCode\QrCode::__toString()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 01:38:29 --> Object of class Endroid\QrCode\Writer\Result\PngResult could not be converted to string
+#0 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(125): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-25 01:39:45 --> Call to undefined method Endroid\QrCode\Writer\Result\PngResult::getContentType()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 01:39:57 --> Call to undefined method Endroid\QrCode\Writer\Result\PngResult::getContentType()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 01:49:45 --> file_put_contents(/qr-code/qrcode.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('/qr-code/qrcode...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(135): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('/qr-code/qrcode...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 01:50:20 --> file_put_contents(/qr-code/qrcode.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('/qr-code/qrcode...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(135): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('/qr-code/qrcode...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 01:50:53 --> file_put_contents(/qr-code/qrcode.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('/qr-code/qrcode...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(135): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('/qr-code/qrcode...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 01:54:57 --> Invalid data at path "C:\xampp\htdocs\V2\app\Controllers/assets/images/logo.png"
+#0 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(138): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 01:55:11 --> Invalid data at path "/assets/images/logo.png"
+#0 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(138): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 01:55:18 --> Invalid data at path "/assets/images"
+#0 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(138): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 01:55:23 --> Invalid data at path "/assets"
+#0 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(138): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 01:55:36 --> Invalid data at path "C:\xampp\htdocs\V2\app\Controllers/assets/images/logo.png"
+#0 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(138): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 01:55:46 --> Invalid data at path "/assets/images/logo.png"
+#0 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(138): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 01:56:33 --> file_put_contents(/qr-code): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('/qr-code', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(142): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('/qr-code')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 01:57:51 --> file_put_contents(/qr-code): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('/qr-code', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(142): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('/qr-code')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 01:59:00 --> file_put_contents(/qr-code): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('/qr-code', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(142): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('/qr-code')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 01:59:54 --> file_put_contents(http://localhost/assets/qr-code): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('http://localhos...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(142): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('http://localhos...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 01:59:56 --> file_put_contents(http://localhost/assets/qr-code): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('http://localhos...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(142): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('http://localhos...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 02:00:30 --> file_put_contents(/assets/qr-code): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('/assets/qr-code', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(142): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('/assets/qr-code')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 02:05:27 --> file_put_contents(/assets/qr-code/test.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('/assets/qr-code...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(142): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('/assets/qr-code...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 02:06:20 --> file_put_contents(/assets/qr-code/test.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('/assets/qr-code...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(140): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('/assets/qr-code...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 02:06:44 --> Call to undefined method Endroid\QrCode\Writer\Result\PngResult::getContentType()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 02:06:52 --> file_put_contents(/assets/qr-code/test.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('/assets/qr-code...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(142): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('/assets/qr-code...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 02:07:20 --> file_put_contents(http://localhost/assets/qr-code/test.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('http://localhos...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(142): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('http://localhos...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 02:07:38 --> file_put_contents(http://localhost/assets/qr-code/test.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('http://localhos...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(142): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('http://localhos...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 02:07:47 --> file_put_contents(http://localhost/assets/qr-code/test.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('http://localhos...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(142): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('http://localhos...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 02:09:39 --> file_put_contents(http://localhost/assets/qr-code/test.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('http://localhos...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(142): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('http://localhos...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 02:10:32 --> file_put_contents(http://localhost/assets/qr-code/test.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('http://localhos...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(142): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('http://localhos...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 02:11:49 --> file_put_contents(http://localhost/assets/qr-code/test.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('http://localhos...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(142): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('http://localhos...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->qrcode()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 03:23:41 --> file_put_contents(C:\xampp\htdocs\V2\public\./assets/qr-code/&quot;qrcode-&quot;1627201421&quot;.png&quot;): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('C:\\xampp\\htdocs...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(112): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 03:24:10 --> file_put_contents(C:\xampp\htdocs\V2\public\./assets/qr-code/&quot;qrcode-&quot;1627201450&quot;.png&quot;): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('C:\\xampp\\htdocs...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(111): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 03:24:28 --> file_put_contents(C:\xampp\htdocs\V2\public\./assets/qr-code/&quot;qrcode-&quot;1627201468&quot;.png&quot;): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('C:\\xampp\\htdocs...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(112): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 03:25:03 --> file_put_contents(C:\xampp\htdocs\V2\public\./assets/qr-code/&quot;qrcode-&quot;1627201503&quot;.png&quot;): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('C:\\xampp\\htdocs...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(112): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 03:36:52 --> file_put_contents(C:\xampp\htdocs\V2\public\./assets/qr-code/qrcode-&quot;1627202212&quot;.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(112): file_put_contents('C:\\xampp\\htdocs...', Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-25 03:37:32 --> file_put_contents(C:\xampp\htdocs\V2\public\./assets/qr-code/&quot;qrcode-&quot;1627202252&quot;.png&quot;): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('C:\\xampp\\htdocs...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(112): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 03:37:59 --> file_put_contents(C:\xampp\htdocs\V2\public\./assets/qr-code/&quot;qrcode-&quot;1627202279&quot;.png&quot;): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('C:\\xampp\\htdocs...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(112): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 03:38:16 --> file_put_contents(C:\xampp\htdocs\V2\public\./assets/qr-code/&quot;qrcode-&quot;1627202296&quot;.png&quot;): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('C:\\xampp\\htdocs...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(112): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 03:39:23 --> file_put_contents(./assets/qr-code/&quot;qrcode-&quot;1627202363&quot;.png&quot;): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('./assets/qr-cod...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(112): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('./assets/qr-cod...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 03:41:02 --> file_put_contents(./assets/qr-code/qrcode-&quot;1627202462&quot;.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('./assets/qr-cod...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(112): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('./assets/qr-cod...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 03:42:00 --> file_put_contents(./assets/qr-code/qrcode-&quot;1627202520&quot;.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('./assets/qr-cod...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(112): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('./assets/qr-cod...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 03:42:35 --> file_put_contents(C:\xampp\htdocs\V2\public\./assets/qr-code/qrcode-&quot;1627202555&quot;.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('C:\\xampp\\htdocs...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(112): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 03:43:45 --> file_put_contents(C:\xampp\htdocs\V2\public\./assets/qr-code/qrcode-&quot;1627202625&quot;.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('C:\\xampp\\htdocs...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(112): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 03:44:19 --> file_put_contents(C:\xampp\htdocs\V2\public\./assets/qr-code/qrcode-&quot;1627202659&quot;.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('C:\\xampp\\htdocs...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(113): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 03:47:01 --> file_put_contents(C:\xampp\htdocs\V2\public\./assets/qr-code/&quot;1627202821&quot;.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('C:\\xampp\\htdocs...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(113): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 03:51:54 --> shell_exec(): Cannot execute a blank command
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'shell_exec(): C...', 'C:\\xampp\\htdocs...', 113, Array)
+#1 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(113): shell_exec('')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-25 03:52:16 --> file_put_contents(C:\xampp\htdocs\V2\public\): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\V2\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('C:\\xampp\\htdocs...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(113): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-25 10:07:30 --> Too few arguments to function App\Controllers\CekoutController::scanner(), 0 passed in C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 10:07:36 --> Too few arguments to function App\Controllers\CekoutController::scanner(), 0 passed in C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 10:07:42 --> Too few arguments to function App\Controllers\CekoutController::scanner(), 0 passed in C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 10:08:42 --> Too few arguments to function App\Controllers\CekoutController::scanner(), 0 passed in C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 10:09:18 --> Too few arguments to function App\Controllers\CekoutController::scanner(), 0 passed in C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 10:13:06 --> Too few arguments to function App\Controllers\CekoutController::scanner(), 0 passed in C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 10:14:10 --> Too few arguments to function App\Controllers\CekoutController::scanner(), 0 passed in C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 10:18:39 --> Too few arguments to function App\Controllers\CekoutController::scanner(), 0 passed in C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 10:18:44 --> Too few arguments to function App\Controllers\CekoutController::scanner(), 0 passed in C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 10:18:49 --> Too few arguments to function App\Controllers\CekoutController::scanner(), 0 passed in C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 10:18:54 --> Too few arguments to function App\Controllers\CekoutController::scanner(), 0 passed in C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 10:19:41 --> Too few arguments to function App\Controllers\CekoutController::scanner(), 0 passed in C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 10:22:12 --> Too few arguments to function App\Controllers\CekoutController::scanner(), 0 passed in C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 10:27:11 --> Too few arguments to function App\Controllers\CekoutController::scanner(), 0 passed in C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 10:34:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 10:34:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 11:01:25 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 11:02:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-25 11:35:39 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in C:\xampp\htdocs\V2\app\Controllers\CekoutController.php on line 33
+#0 C:\xampp\htdocs\V2\app\Controllers\CekoutController.php(33): CodeIgniter\Database\BaseBuilder->update('52', Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekoutController->scanner()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekoutController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-07-25 23:46:16 --> Unknown column 'nohp' in 'field list'
+CRITICAL - 2021-07-25 23:46:16 --> Unknown column 'nohp' in 'field list'
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ce...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ce...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ce...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ce...', Array, false)
+#4 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(86): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-25 23:48:21 --> Unknown column 'nama_rombongan' in 'field list'
+CRITICAL - 2021-07-25 23:48:21 --> Unknown column 'nama_rombongan' in 'field list'
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ro...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ro...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ro...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ro...', Array, false)
+#4 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(138): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-25 23:50:39 --> Unknown column 'nama_rombongan' in 'field list'
+CRITICAL - 2021-07-25 23:50:39 --> Unknown column 'nama_rombongan' in 'field list'
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ro...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ro...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ro...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ro...', Array, false)
+#4 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(138): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-25 23:52:01 --> Unknown column 'nama_rombongan' in 'field list'
+CRITICAL - 2021-07-25 23:52:01 --> Unknown column 'nama_rombongan' in 'field list'
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ro...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ro...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ro...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ro...', Array, false)
+#4 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(138): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

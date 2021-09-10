@@ -1,0 +1,107 @@
+CRITICAL - 2021-09-07 10:12:25 --> Trying to get property 'timezone' of non-object
+#0 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-09-07 10:15:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'between '2020-01-01' and '2020-01-31'' at line 1
+CRITICAL - 2021-09-07 10:15:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'between '2020-01-01' and '2020-01-31'' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-07 10:23:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where '2021-09-01'' at line 1
+CRITICAL - 2021-09-07 10:23:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where '2021-09-01'' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-07 10:23:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where '2021-09-01'' at line 1
+CRITICAL - 2021-09-07 10:23:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where '2021-09-01'' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-07 10:23:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where '2021-09-01'' at line 1
+CRITICAL - 2021-09-07 10:23:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where '2021-09-01'' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(19): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-09-07 11:18:04 --> Array to string conversion
+#0 C:\xampp\htdocs\v2\app\Views\dashboard.php(741): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 741, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(90): view('dashboard', Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-07 11:29:35 --> Array to string conversion
+#0 C:\xampp\htdocs\v2\app\Views\dashboard.php(741): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 741, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(90): view('dashboard', Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-09-07 12:34:24 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-09-07 12:34:24 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(22): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-07 14:22:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION(SELECT cekin.created_at, cekin.status FROM cekin  WHERE cekin.created_a...' at line 1
+CRITICAL - 2021-09-07 14:22:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION(SELECT cekin.created_at, cekin.status FROM cekin  WHERE cekin.created_a...' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(22): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-09-07 23:09:25 --> Column 'jenkel' cannot be null
+CRITICAL - 2021-09-07 23:09:25 --> Column 'jenkel' cannot be null
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `vi...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vi...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vi...')
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vi...', Array, false)
+#4 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(292): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

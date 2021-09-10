@@ -1,0 +1,261 @@
+CRITICAL - 2021-09-09 00:00:25 --> Undefined index: start_date
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 00:06:20 --> Undefined index: start_date
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 00:08:00 --> Undefined index: start_date
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 00:08:17 --> Undefined index: start_date
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 00:26:09 --> Illegal string offset 'value'
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 136, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 00:31:50 --> Illegal string offset 'value'
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 00:32:20 --> Illegal string offset 'value'
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 00:32:21 --> Illegal string offset 'value'
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 00:32:21 --> Illegal string offset 'value'
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 00:32:21 --> Illegal string offset 'value'
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 00:32:21 --> Illegal string offset 'value'
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 00:32:28 --> Illegal string offset 'value'
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 00:41:47 --> Undefined index: start_date
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 00:41:55 --> Undefined index: start_date
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 00:43:24 --> Undefined index: start_date
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 00:43:28 --> Undefined index: start_date
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 01:52:24 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-09 01:57:55 --> Undefined variable: querySearch
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 144, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 01:58:08 --> Undefined index: searchByFromdate
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 01:58:57 --> Undefined variable: querySearch
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 144, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 01:59:01 --> Undefined variable: querySearch
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 144, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-09 02:01:21 --> Undefined variable: querySearch
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 144, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-09-09 02:05:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+ORDER BY `id_cekin` DESC
+ LIMIT 10' at line 9
+CRITICAL - 2021-09-09 02:05:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+ORDER BY `id_cekin` DESC
+ LIMIT 10' at line 9
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `cekin`....')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cekin`....')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cekin`....')
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `cekin`....', Array, false)
+#4 C:\xampp\htdocs\v2\app\Models\CekinModel.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-09 02:10:24 --> Column 'created_at' in where clause is ambiguous
+CRITICAL - 2021-09-09 02:10:24 --> Column 'created_at' in where clause is ambiguous
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `cekin`....')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cekin`....')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cekin`....')
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `cekin`....', Array, false)
+#4 C:\xampp\htdocs\v2\app\Models\CekinModel.php(159): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-09-09 02:10:30 --> Column 'created_at' in where clause is ambiguous
+CRITICAL - 2021-09-09 02:10:30 --> Column 'created_at' in where clause is ambiguous
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `cekin`....')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cekin`....')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cekin`....')
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `cekin`....', Array, false)
+#4 C:\xampp\htdocs\v2\app\Models\CekinModel.php(159): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(194): App\Models\CekinModel->get_datatables()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getData()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-09-09 21:02:51 --> Undefined index: bukti_foto
+#0 C:\xampp\htdocs\v2\app\Views\Cekin\detail_cekin.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Cekin/detail_ce...', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(275): view('Cekin/detail_ce...', Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('38')
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-09 21:03:39 --> Undefined index: jenkel
+#0 C:\xampp\htdocs\v2\app\Views\Cekin\detail_cekin.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Cekin/detail_ce...', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(275): view('Cekin/detail_ce...', Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('38')
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-09 21:04:18 --> Undefined index: created_at
+#0 C:\xampp\htdocs\v2\app\Views\Cekin\detail_cekin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Cekin/detail_ce...', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(275): view('Cekin/detail_ce...', Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('38')
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-09 21:10:32 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Debug\Toolbar\Views\toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Debug\Toolbar.php(495): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\v2\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Events\Events.php(166): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(316): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

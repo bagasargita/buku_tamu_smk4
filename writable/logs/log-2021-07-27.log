@@ -1,0 +1,18 @@
+ERROR - 2021-07-27 04:19:12 --> Unknown column 'nohp' in 'field list'
+CRITICAL - 2021-07-27 04:19:12 --> Unknown column 'nohp' in 'field list'
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ce...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ce...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ce...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ce...', Array, false)
+#4 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(87): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-27 12:43:27 --> date_default_timezone_set(): Timezone ID 'Indonesia/Jakarta' is invalid
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'date_default_ti...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(187): date_default_timezone_set('Indonesia/Jakar...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\V2\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}

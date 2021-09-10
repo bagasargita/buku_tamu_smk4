@@ -1,0 +1,203 @@
+ERROR - 2021-08-19 01:50:22 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-08-19 01:50:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2049): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\v2\app\Controllers\AuthController.php(26): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AuthController->loginprosess()
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-08-19 01:50:38 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+ERROR - 2021-08-19 02:19:06 --> Unknown column 'guru.nama_guru' in 'field list'
+CRITICAL - 2021-08-19 02:19:06 --> Unknown column 'guru.nama_guru' in 'field list'
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(86): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-19 02:20:02 --> Undefined index: nama_bagian
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 02:20:19 --> Trying to get property 'nama_bagian' of non-object
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 02:20:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-19 02:21:18 --> Trying to get property 'nama_bagian' of non-object
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 02:21:41 --> Undefined index: nama_bagian
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 02:22:33 --> Undefined index: nama_bagian
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-08-19 03:15:19 --> Table 'bukutamuv2.instansi' doesn't exist
+CRITICAL - 2021-08-19 03:15:19 --> Table 'bukutamuv2.instansi' doesn't exist
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM i...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 C:\xampp\htdocs\v2\app\Controllers\InstansiController.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\InstansiController->index()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstansiController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-19 03:15:42 --> Undefined variable: bagian
+#0 C:\xampp\htdocs\v2\app\Views\Instansi\data_instansi.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Instansi/data_i...', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\InstansiController.php(18): view('Instansi/data_i...', Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\InstansiController->index()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstansiController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 03:16:12 --> Undefined variable: bagian
+#0 C:\xampp\htdocs\v2\app\Views\Instansi\data_instansi.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Instansi/data_i...', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\InstansiController.php(18): view('Instansi/data_i...', Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\InstansiController->index()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstansiController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 03:16:26 --> Undefined variable: bagian
+#0 C:\xampp\htdocs\v2\app\Views\Instansi\data_instansi.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Instansi/data_i...', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\InstansiController.php(18): view('Instansi/data_i...', Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\InstansiController->index()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstansiController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 03:19:08 --> Undefined index: id_bagian
+#0 C:\xampp\htdocs\v2\app\Views\Instansi\data_instansi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Instansi/data_i...', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\InstansiController.php(18): view('Instansi/data_i...', Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\InstansiController->index()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstansiController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 03:19:57 --> Undefined index: id_guru
+#0 C:\xampp\htdocs\v2\app\Views\Instansi\data_instansi.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Instansi/data_i...', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\InstansiController.php(18): view('Instansi/data_i...', Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\InstansiController->index()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstansiController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 03:39:23 --> Undefined index: id_instansi
+#0 C:\xampp\htdocs\v2\app\Controllers\InstansiController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\InstansiController->delete()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InstansiController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 03:48:11 --> Undefined index: id_instansi
+#0 C:\xampp\htdocs\v2\app\Views\Keperluan\data_keperluan.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Keperluan/data_...', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\KeperluanController.php(18): view('Keperluan/data_...', Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\KeperluanController->index()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeperluanController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-19 23:14:56 --> Illegal string offset 'nama'
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 23:18:21 --> Undefined variable: test
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-19 23:19:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-19 23:21:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-19 23:43:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::query()
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-08-19 23:44:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '.0888922222222.'' at line 1
+CRITICAL - 2021-08-19 23:44:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '.0888922222222.'' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT id_visit...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_visit...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_visit...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(89): CodeIgniter\Database\BaseConnection->query('SELECT id_visit...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-19 23:46:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-19 23:46:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getGet()
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

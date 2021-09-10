@@ -1,0 +1,171 @@
+CRITICAL - 2021-08-25 03:09:03 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getAll()
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getByDate()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-08-25 03:14:10 --> Unknown column 'DATE' in 'where clause'
+CRITICAL - 2021-08-25 03:14:10 --> Unknown column 'DATE' in 'where clause'
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(42): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getByDate()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-25 03:14:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BETWEEN 25/08/2021 and 11/09/2021' at line 1
+CRITICAL - 2021-08-25 03:14:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BETWEEN 25/08/2021 and 11/09/2021' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(42): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getByDate()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-25 21:33:19 --> Column 'created_at' in where clause is ambiguous
+CRITICAL - 2021-08-25 21:33:19 --> Column 'created_at' in where clause is ambiguous
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(42): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getByDate()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-25 21:37:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''00:00:00' and 2021-08-31.'00:00:00'' at line 1
+CRITICAL - 2021-08-25 21:37:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''00:00:00' and 2021-08-31.'00:00:00'' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(43): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getByDate()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-25 21:37:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''00:00:00' and 2021-08-31'00:00:00'' at line 1
+CRITICAL - 2021-08-25 21:37:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''00:00:00' and 2021-08-31'00:00:00'' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(43): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getByDate()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-25 21:38:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''00:00:00' and 2021-08-31 '00:00:00'' at line 1
+CRITICAL - 2021-08-25 21:38:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''00:00:00' and 2021-08-31 '00:00:00'' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(43): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getByDate()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-25 21:41:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '00:00:00 and 2021-08-31 00:00:00' at line 1
+CRITICAL - 2021-08-25 21:41:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '00:00:00 and 2021-08-31 00:00:00' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(43): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getByDate()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-25 21:46:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':00:00 and 2021-08-31.00:00:00' at line 1
+CRITICAL - 2021-08-25 21:46:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':00:00 and 2021-08-31.00:00:00' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(43): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getByDate()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-25 21:46:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':00:00 and 2021-08-31.00:00:00' at line 1
+CRITICAL - 2021-08-25 21:46:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':00:00 and 2021-08-31.00:00:00' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(43): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getByDate()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-25 21:46:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':00:00 and 2021-08-31.00:00:00' at line 1
+CRITICAL - 2021-08-25 21:46:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':00:00 and 2021-08-31.00:00:00' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(43): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getByDate()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-25 22:00:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2021-08-01.” “.00:00:00.” And “.2021-08-31.” “.00:00:00.”' at line 1
+CRITICAL - 2021-08-25 22:00:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2021-08-01.” “.00:00:00.” And “.2021-08-31.” “.00:00:00.”' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(43): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getByDate()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-25 22:01:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':00:00 AND 2021-08-3100:00:00' at line 1
+CRITICAL - 2021-08-25 22:01:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':00:00 AND 2021-08-3100:00:00' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(43): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getByDate()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-25 22:03:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '..00:00:00 AND 2021-08-3100:00:00' at line 1
+CRITICAL - 2021-08-25 22:03:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '..00:00:00 AND 2021-08-3100:00:00' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(43): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getByDate()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-25 22:03:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '00:00:00 AND 2021-08-31 00:00:00' at line 1
+CRITICAL - 2021-08-25 22:03:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '00:00:00 AND 2021-08-31 00:00:00' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(43): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getByDate()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-25 22:10:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '00:00:00 AND 2021-08-27 00:00:00' at line 1
+CRITICAL - 2021-08-25 22:10:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '00:00:00 AND 2021-08-27 00:00:00' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(43): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->getByDate()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

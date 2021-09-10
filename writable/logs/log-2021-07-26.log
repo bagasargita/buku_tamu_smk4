@@ -1,0 +1,1018 @@
+ERROR - 2021-07-26 03:06:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN guru WHERE guru.id_guru = cekin.tujuan_id' at line 1
+CRITICAL - 2021-07-26 03:06:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN guru WHERE guru.id_guru = cekin.tujuan_id' at line 1
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 03:20:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN bagian ON bagian.id_bagian = cekin.bagian_id JOIN guru ON guru.id_guru =...' at line 1
+CRITICAL - 2021-07-26 03:20:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN bagian ON bagian.id_bagian = cekin.bagian_id JOIN guru ON guru.id_guru =...' at line 1
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 03:20:28 --> Unknown column '$id' in 'where clause'
+CRITICAL - 2021-07-26 03:20:28 --> Unknown column '$id' in 'where clause'
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 03:21:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN bagian ON bagian.id_bagian = cekin.bagian_id JOIN guru ON guru.id_guru =...' at line 1
+CRITICAL - 2021-07-26 03:21:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN bagian ON bagian.id_bagian = cekin.bagian_id JOIN guru ON guru.id_guru =...' at line 1
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 03:21:19 --> Unknown column '$id' in 'where clause'
+CRITICAL - 2021-07-26 03:21:19 --> Unknown column '$id' in 'where clause'
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(150): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 03:27:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '.4.'' at line 1
+CRITICAL - 2021-07-26 03:27:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '.4.'' at line 1
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-26 03:32:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::join()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-07-26 03:53:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= cekin.bagian_id JOIN guru ON guru.id_guru == cekin.tujuan_id  WHERE cekin.i...' at line 1
+CRITICAL - 2021-07-26 03:53:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= cekin.bagian_id JOIN guru ON guru.id_guru == cekin.tujuan_id  WHERE cekin.i...' at line 1
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 05:03:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT rombongan ON rombongan.id_cekin = cekin.id_cekin WHERE cekin.id_ceki...' at line 1
+CRITICAL - 2021-07-26 05:03:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT rombongan ON rombongan.id_cekin = cekin.id_cekin WHERE cekin.id_ceki...' at line 1
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM c...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-26 07:00:12 --> Undefined variable: data2
+#0 C:\xampp\htdocs\V2\app\Views\Cekin\detail_cekin.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Cekin/detail_ce...', Array, true)
+#4 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(172): view('Cekin/detail_ce...', Array)
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-26 21:31:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM cekin JOIN bagian ON bagian.id_bagian = cekin.bagian_id JOIN guru ON gur...' at line 1
+CRITICAL - 2021-07-26 21:31:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM cekin JOIN bagian ON bagian.id_bagian = cekin.bagian_id JOIN guru ON gur...' at line 1
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:31:39 --> Column 'id_cekin' in field list is ambiguous
+CRITICAL - 2021-07-26 21:31:39 --> Column 'id_cekin' in field list is ambiguous
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:32:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.nik  FROM cekin JOIN bagian ON bagian.id_bagian = cekin.bagian_id JOIN guru ...' at line 1
+CRITICAL - 2021-07-26 21:32:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.nik  FROM cekin JOIN bagian ON bagian.id_bagian = cekin.bagian_id JOIN guru ...' at line 1
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:42:11 --> Unknown table 'cekin' in field list
+CRITICAL - 2021-07-26 21:42:11 --> Unknown table 'cekin' in field list
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:44:50 --> Unknown table 'cekin' in field list
+CRITICAL - 2021-07-26 21:44:50 --> Unknown table 'cekin' in field list
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:44:51 --> Unknown table 'cekin' in field list
+CRITICAL - 2021-07-26 21:44:51 --> Unknown table 'cekin' in field list
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:45:13 --> Unknown table 'cekin' in field list
+CRITICAL - 2021-07-26 21:45:13 --> Unknown table 'cekin' in field list
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:45:13 --> Unknown table 'cekin' in field list
+CRITICAL - 2021-07-26 21:45:13 --> Unknown table 'cekin' in field list
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:45:14 --> Unknown table 'cekin' in field list
+CRITICAL - 2021-07-26 21:45:14 --> Unknown table 'cekin' in field list
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:45:14 --> Unknown table 'cekin' in field list
+CRITICAL - 2021-07-26 21:45:14 --> Unknown table 'cekin' in field list
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:45:15 --> Unknown table 'cekin' in field list
+CRITICAL - 2021-07-26 21:45:15 --> Unknown table 'cekin' in field list
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:46:28 --> Unknown column 'cekin.id_cekin' in 'where clause'
+CRITICAL - 2021-07-26 21:46:28 --> Unknown column 'cekin.id_cekin' in 'where clause'
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:47:04 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 21:47:04 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:47:36 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 21:47:36 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:47:37 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 21:47:37 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:47:37 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 21:47:37 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:47:37 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 21:47:37 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:47:38 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 21:47:38 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:47:38 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 21:47:38 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:51:47 --> Unknown column 'cekin.id_cekin' in 'where clause'
+CRITICAL - 2021-07-26 21:51:47 --> Unknown column 'cekin.id_cekin' in 'where clause'
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:58:21 --> Unknown column 'cekin.id_cekin' in 'where clause'
+CRITICAL - 2021-07-26 21:58:21 --> Unknown column 'cekin.id_cekin' in 'where clause'
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:58:22 --> Unknown column 'cekin.id_cekin' in 'where clause'
+CRITICAL - 2021-07-26 21:58:22 --> Unknown column 'cekin.id_cekin' in 'where clause'
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:58:23 --> Unknown column 'cekin.id_cekin' in 'where clause'
+CRITICAL - 2021-07-26 21:58:23 --> Unknown column 'cekin.id_cekin' in 'where clause'
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:58:23 --> Unknown column 'cekin.id_cekin' in 'where clause'
+CRITICAL - 2021-07-26 21:58:23 --> Unknown column 'cekin.id_cekin' in 'where clause'
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 21:59:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM cekin = '4'' at line 1
+CRITICAL - 2021-07-26 21:59:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM cekin = '4'' at line 1
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:00:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM cekin' at line 1
+CRITICAL - 2021-07-26 22:00:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM cekin' at line 1
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:00:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM cekin' at line 1
+CRITICAL - 2021-07-26 22:00:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM cekin' at line 1
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:00:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM cekin' at line 1
+CRITICAL - 2021-07-26 22:00:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM cekin' at line 1
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:00:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM cekin' at line 1
+CRITICAL - 2021-07-26 22:00:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM cekin' at line 1
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:01:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM cekin JOIN bagian ON bagian.id_bagian = cekin.bagian_id JOIN guru ON gur...' at line 1
+CRITICAL - 2021-07-26 22:01:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM cekin JOIN bagian ON bagian.id_bagian = cekin.bagian_id JOIN guru ON gur...' at line 1
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:01:13 --> Unknown table 'cekin' in field list
+CRITICAL - 2021-07-26 22:01:13 --> Unknown table 'cekin' in field list
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:05:34 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:05:34 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:07:42 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:07:42 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:07:45 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:07:45 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:09:27 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:09:27 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:14:50 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:14:50 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:14:51 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:14:51 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:14:51 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:14:51 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:14:51 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:14:51 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:14:52 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:14:52 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:16:38 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:16:38 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:16:39 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:16:39 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:17:20 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:17:20 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:17:21 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:17:21 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:17:21 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:17:21 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:17:22 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:17:22 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:17:22 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:17:22 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:17:22 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:17:22 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:17:23 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:17:23 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:17:23 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:17:23 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:17:23 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:17:23 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:17:43 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:17:43 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:17:44 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:17:44 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:17:44 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:17:44 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:17:44 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:17:44 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:18:14 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:18:14 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:18:14 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:18:14 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:18:20 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:18:20 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:18:21 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:18:21 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:18:22 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:18:22 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:18:22 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:18:22 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:18:31 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:18:31 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:19:10 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:19:10 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:19:11 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:19:11 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:19:11 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:19:11 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:19:12 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:19:12 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:19:12 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:19:12 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:19:42 --> Unknown column 'rombongan.nama_rombongan' in 'field list'
+CRITICAL - 2021-07-26 22:19:42 --> Unknown column 'rombongan.nama_rombongan' in 'field list'
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:20:00 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:20:00 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:20:08 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:20:08 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:20:09 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:20:09 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:20:10 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:20:10 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:20:10 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:20:10 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:20:43 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:20:43 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:20:44 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:20:44 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:20:44 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:20:44 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:20:44 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:20:44 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:20:45 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:20:45 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:20:45 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:20:45 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:21:22 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:21:22 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:21:22 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:21:22 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-07-26 22:22:36 --> The used SELECT statements have a different number of columns
+CRITICAL - 2021-07-26 22:22:36 --> The used SELECT statements have a different number of columns
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT DISTINCT...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(151): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-26 22:37:03 --> Undefined variable: data
+#0 C:\xampp\htdocs\V2\app\Views\Cekin\detail_cekin.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Cekin/detail_ce...', Array, true)
+#4 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(162): view('Cekin/detail_ce...', Array)
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->detail('4')
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,333 @@
+ERROR - 2021-08-08 21:17:10 --> Error connecting to the database: Unknown database 'ci4test'
+CRITICAL - 2021-08-08 21:17:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4test'
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2049): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\v2\app\Controllers\AuthController.php(26): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AuthController->loginprosess()
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-08 22:17:19 --> Invalid file: pdf_view.php
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pdf_view.php')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pdf_view', Array, true)
+#2 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(190): view('pdf_view')
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF()
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-08 22:17:50 --> Undefined variable: data1
+#0 C:\xampp\htdocs\v2\app\Views\Cekin\pdf_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Cekin/pdf_view', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(190): view('Cekin/pdf_view')
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF()
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-08 22:43:09 --> strtoupper() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtoupper() ex...', 'C:\\xampp\\htdocs...', 480, Array)
+#1 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Dompdf.php(480): strtoupper(Array)
+#2 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(196): Dompdf\Dompdf->loadHtml('Cekin/pdf_view', Array)
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-08 22:43:23 --> strtoupper() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtoupper() ex...', 'C:\\xampp\\htdocs...', 480, Array)
+#1 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Dompdf.php(480): strtoupper(Array)
+#2 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(196): Dompdf\Dompdf->loadHtml('Cekin/pdf_view', Array, true)
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-08 22:43:34 --> strtoupper() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtoupper() ex...', 'C:\\xampp\\htdocs...', 480, Array)
+#1 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Dompdf.php(480): strtoupper(Array)
+#2 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(196): Dompdf\Dompdf->loadHtml('Cekin/pdf_view', Array, true)
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-08 22:45:27 --> Class 'App\Controllers\Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-08 22:46:31 --> mb_convert_encoding(): Illegal character encoding specified
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mb_convert_enco...', 'C:\\xampp\\htdocs...', 481, Array)
+#1 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Dompdf.php(481): mb_convert_encoding('<!-- DEBUG-VIEW...', 'UTF-8', '1')
+#2 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(196): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW...', true)
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-08 22:47:14 --> strtoupper() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtoupper() ex...', 'C:\\xampp\\htdocs...', 480, Array)
+#1 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Dompdf.php(480): strtoupper(Array)
+#2 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(196): Dompdf\Dompdf->loadHtml('Cekin/pdf_view', Array, true)
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-08 22:47:41 --> Too few arguments to function Dompdf\Dompdf::loadHtml(), 0 passed in C:\xampp\htdocs\v2\app\Controllers\CekinController.php on line 196 and at least 1 expected
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(196): Dompdf\Dompdf->loadHtml()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-08 22:47:42 --> Too few arguments to function Dompdf\Dompdf::loadHtml(), 0 passed in C:\xampp\htdocs\v2\app\Controllers\CekinController.php on line 196 and at least 1 expected
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(196): Dompdf\Dompdf->loadHtml()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-08 22:47:55 --> strtoupper() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtoupper() ex...', 'C:\\xampp\\htdocs...', 480, Array)
+#1 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Dompdf.php(480): strtoupper(Array)
+#2 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(196): Dompdf\Dompdf->loadHtml('Cekin/pdf_view', Array, true)
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-08 22:50:38 --> Undefined variable: data1
+#0 C:\xampp\htdocs\v2\app\Views\Cekin\pdf_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Cekin/pdf_view', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(196): view('Cekin/pdf_view')
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-08 22:50:48 --> Undefined variable: data1
+#0 C:\xampp\htdocs\v2\app\Views\Cekin\pdf_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Cekin/pdf_view', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(196): view('Cekin/pdf_view')
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-08 22:57:02 --> Undefined property: App\Controllers\CekinController::$load
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-08 23:02:05 --> Undefined property: App\Controllers\CekinController::$echo
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-08 23:02:16 --> Undefined property: App\Controllers\CekinController::$load
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-08 23:02:17 --> Undefined property: App\Controllers\CekinController::$load
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-08 23:05:06 --> Undefined property: App\Controllers\CekinController::$loadHelpers
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-08 23:05:06 --> Undefined property: App\Controllers\CekinController::$loadHelpers
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-08 23:05:07 --> Undefined property: App\Controllers\CekinController::$loadHelpers
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 193, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-08 23:05:43 --> Argument 3 passed to view() must be of the type array, bool given, called in C:\xampp\htdocs\v2\app\Controllers\CekinController.php on line 193
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(193): view('Cekin/pdf_view', Array, true)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-08 23:05:55 --> basename() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'basename() expe...', 'C:\\xampp\\htdocs...', 1195, Array)
+#1 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Adapter\CPDF.php(1195): basename(Array, '.pdf')
+#2 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Dompdf.php(928): Dompdf\Adapter\CPDF->stream(Array, Array)
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(205): Dompdf\Dompdf->stream(Array)
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-08 23:06:00 --> basename() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'basename() expe...', 'C:\\xampp\\htdocs...', 1195, Array)
+#1 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Adapter\CPDF.php(1195): basename(Array, '.pdf')
+#2 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Dompdf.php(928): Dompdf\Adapter\CPDF->stream(Array, Array)
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(205): Dompdf\Dompdf->stream(Array)
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-08 23:06:09 --> basename() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'basename() expe...', 'C:\\xampp\\htdocs...', 1195, Array)
+#1 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Adapter\CPDF.php(1195): basename(Array, '.pdf')
+#2 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Dompdf.php(928): Dompdf\Adapter\CPDF->stream(Array, Array)
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(205): Dompdf\Dompdf->stream(Array)
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-08 23:07:17 --> compact(): Undefined variable: Cekin/pdf_view
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'C:\\xampp\\htdocs...', 193, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(193): compact('Cekin/pdf_view', Array)
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-08 23:07:48 --> mb_convert_encoding(): Illegal character encoding specified
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mb_convert_enco...', 'C:\\xampp\\htdocs...', 481, Array)
+#1 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Dompdf.php(481): mb_convert_encoding('<!-- DEBUG-VIEW...', 'UTF-8', '1')
+#2 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(197): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW...', true)
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-08 23:12:32 --> Cannot call constructor
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\CekinController->__construct()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-08 23:14:01 --> Cannot call constructor
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\CekinController->__construct()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-08 23:16:11 --> Cannot call constructor
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(900): App\Controllers\CekinController->__construct()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-08 23:26:45 --> Argument 3 passed to view() must be of the type array, bool given, called in C:\xampp\htdocs\v2\app\Controllers\CekinController.php on line 195
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(195): view('Cekin/pdf_view', Array, true)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-08 23:27:00 --> basename() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'basename() expe...', 'C:\\xampp\\htdocs...', 1195, Array)
+#1 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Adapter\CPDF.php(1195): basename(Array, '.pdf')
+#2 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Dompdf.php(928): Dompdf\Adapter\CPDF->stream(Array, Array)
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(207): Dompdf\Dompdf->stream(Array)
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-08 23:27:21 --> Undefined variable: data1
+#0 C:\xampp\htdocs\v2\app\Views\Cekin\pdf_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Cekin/pdf_view', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(195): view('Cekin/pdf_view')
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-08 23:27:34 --> basename() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'basename() expe...', 'C:\\xampp\\htdocs...', 1195, Array)
+#1 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Adapter\CPDF.php(1195): basename(Array, '.pdf')
+#2 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Dompdf.php(928): Dompdf\Adapter\CPDF->stream(Array, Array)
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(207): Dompdf\Dompdf->stream(Array)
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-08 23:28:17 --> basename() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'basename() expe...', 'C:\\xampp\\htdocs...', 1195, Array)
+#1 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Adapter\CPDF.php(1195): basename(Array, '.pdf')
+#2 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Dompdf.php(928): Dompdf\Adapter\CPDF->stream(Array, Array)
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(208): Dompdf\Dompdf->stream(Array)
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-08 23:28:30 --> basename() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'basename() expe...', 'C:\\xampp\\htdocs...', 1195, Array)
+#1 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Adapter\CPDF.php(1195): basename(Array, '.pdf')
+#2 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Dompdf.php(928): Dompdf\Adapter\CPDF->stream(Array, Array)
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(208): Dompdf\Dompdf->stream(Array)
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-08 23:28:38 --> basename() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'basename() expe...', 'C:\\xampp\\htdocs...', 1195, Array)
+#1 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Adapter\CPDF.php(1195): basename(Array, '.pdf')
+#2 C:\xampp\htdocs\v2\vendor\dompdf\dompdf\src\Dompdf.php(928): Dompdf\Adapter\CPDF->stream(Array, Array)
+#3 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(208): Dompdf\Dompdf->stream(Array)
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-08 23:29:55 --> Class 'App\Controllers\Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-08 23:35:52 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\v2\app\Views\Cekin\pdf_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Cekin/pdf_view', Array, true)
+#4 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(195): view('Cekin/pdf_view', Array)
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->htmlToPDF('2')
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

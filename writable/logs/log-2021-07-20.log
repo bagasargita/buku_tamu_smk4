@@ -1,0 +1,76 @@
+CRITICAL - 2021-07-20 01:33:27 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::insert() must be of the type array or null, string given, called in C:\xampp\htdocs\V2\app\Controllers\BagianController.php on line 24
+#0 C:\xampp\htdocs\V2\app\Controllers\BagianController.php(24): CodeIgniter\Database\BaseBuilder->insert('Kepala Sekolah')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\BagianController->create()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-20 01:34:10 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::insert() must be of the type array or null, string given, called in C:\xampp\htdocs\V2\app\Controllers\BagianController.php on line 24
+#0 C:\xampp\htdocs\V2\app\Controllers\BagianController.php(24): CodeIgniter\Database\BaseBuilder->insert('Kepala Sekolah')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\BagianController->create()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-07-20 01:35:06 --> Unknown column 'csrf_test_name' in 'field list'
+CRITICAL - 2021-07-20 01:35:06 --> Unknown column 'csrf_test_name' in 'field list'
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ba...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\V2\app\Controllers\BagianController.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\BagianController->create()
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianController))
+#7 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-20 01:35:35 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::insert() must be of the type array or null, string given, called in C:\xampp\htdocs\V2\app\Controllers\BagianController.php on line 24
+#0 C:\xampp\htdocs\V2\app\Controllers\BagianController.php(24): CodeIgniter\Database\BaseBuilder->insert('Kepala Sekolah')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\BagianController->create()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-20 01:44:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\BagianController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-20 01:49:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\BagianController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-20 01:50:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\BagianController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-20 01:51:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\BagianController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-20 01:52:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\BagianController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-20 03:14:42 --> Too few arguments to function App\Controllers\BagianController::delete(), 0 passed in C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\BagianController->delete()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-20 08:17:00 --> Undefined index: nama_bagian
+#0 C:\xampp\htdocs\V2\app\Controllers\BagianController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\BagianController->update()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BagianController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

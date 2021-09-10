@@ -1,0 +1,852 @@
+CRITICAL - 2021-08-29 07:56:24 --> Undefined variable: res
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->index()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:09:54 --> Class 'App\Controllers\Services' not found
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-29 08:13:04 --> Class 'App\Controllers\Services' not found
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-29 08:13:08 --> Class 'App\Controllers\Services' not found
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-29 08:13:15 --> Class 'App\Controllers\Services' not found
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-29 08:14:01 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:14:21 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:14:21 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:14:23 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:14:25 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:14:26 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:14:45 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:14:47 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:18:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(90): App\Models\CekinModel->get_datatables()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:20:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 C:\xampp\htdocs\v2\app\Models\CekinModel.php(53): App\Models\CekinModel->_get_datatables_query()
+#1 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(90): App\Models\CekinModel->get_datatables()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-29 08:27:09 --> Too few arguments to function App\Models\CekinModel::__construct(), 0 passed in C:\xampp\htdocs\v2\app\Controllers\CekinController.php on line 125 and exactly 1 expected
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(125): App\Models\CekinModel->__construct()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:27:50 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:31:49 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:31:55 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:32:00 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:32:49 --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_as...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\v2\app\Models\CekinModel.php(33): mysqli_fetch_assoc(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-29 08:35:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::unbuffered_row()
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:35:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::unbuffered_row()
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:35:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::unbuffered_row()
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:38:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:38:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:38:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:38:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:38:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:38:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:38:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultArray()
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:38:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultArray()
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:38:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultArray()
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 08:38:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultArray()
+#0 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(133): App\Models\CekinModel->fetch()
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 09:00:54 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:00:55 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:00:56 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:00:56 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:00:56 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:00:57 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:00:57 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:00:57 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:00:58 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:00:58 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:01:07 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:02:30 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:03:29 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:04:11 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:04:22 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:07:28 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:15:31 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:15:32 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:15:32 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:15:32 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:15:32 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:15:33 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:15:33 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:15:40 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:15:42 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:15:42 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:15:42 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:15:42 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:15:42 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:16:00 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:16:00 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:16:01 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:16:22 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 09:16:23 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 10:13:48 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 10:14:38 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 10:15:03 --> The parameter class is expected to be either a string or an object
+#0 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\Helper.php(9): ReflectionProperty->__construct(Array, 'QBSelect')
+#1 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(241): Hermawan\DataTables\Helper::getObjectPropertyValue(Array, 'QBSelect')
+#2 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTableColumnDefs.php(17): Hermawan\DataTables\DataTableColumnDefs->initFromBuilder(Array)
+#3 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(32): Hermawan\DataTables\DataTableColumnDefs->__construct(Array)
+#4 C:\xampp\htdocs\v2\vendor\hermawan\codeigniter4-datatables\src\DataTable.php(45): Hermawan\DataTables\DataTable->__construct(Array)
+#5 C:\xampp\htdocs\v2\app\Controllers\CekinController.php(139): Hermawan\DataTables\DataTable::of(Array)
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->listdata()
+#7 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#8 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-08-29 10:20:38 --> Undefined index: status
+#0 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 10:20:51 --> Trying to get property 'status' of non-object
+#0 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 10:20:52 --> Trying to get property 'status' of non-object
+#0 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 10:21:35 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(15): count('Cekin')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-29 10:21:50 --> Trying to access array offset on value of type int
+#0 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-29 10:21:55 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(15): count('Cekin')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-29 10:21:56 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(15): count('Cekin')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-29 10:21:56 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(15): count('Cekin')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-29 10:21:56 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(15): count('Cekin')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-29 10:21:57 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(15): count('Cekin')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-29 10:21:57 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(15): count('Cekin')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-29 10:24:15 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(17): count(true)
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-29 10:25:10 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(17): count('Cekin')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-29 10:25:10 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(17): count('Cekin')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-29 10:25:11 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(17): count('Cekin')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#3 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-08-29 21:41:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT()' at line 1
+CRITICAL - 2021-08-29 21:41:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT()' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(11): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-29 21:41:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT()' at line 1
+CRITICAL - 2021-08-29 21:41:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT()' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(11): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-29 21:42:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT()' at line 1
+CRITICAL - 2021-08-29 21:42:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT()' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(11): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-29 21:42:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT()' at line 1
+CRITICAL - 2021-08-29 21:42:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT()' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(11): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-29 21:42:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT()' at line 1
+CRITICAL - 2021-08-29 21:42:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT()' at line 1
+#0 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT cekin.id...')
+#1 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cekin.id...')
+#2 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cekin.id...')
+#3 C:\xampp\htdocs\v2\app\Controllers\DashboardController.php(11): CodeIgniter\Database\BaseConnection->query('SELECT cekin.id...')
+#4 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\DashboardController->index()
+#5 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#6 C:\xampp\htdocs\v2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\v2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

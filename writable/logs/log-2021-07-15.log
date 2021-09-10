@@ -1,0 +1,37 @@
+CRITICAL - 2021-07-15 01:16:54 --> Class 'Config\App\Filters\Auth' not found
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('cekin', 'before')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-07-15 01:37:19 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getAll()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AuthController->login()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-15 02:18:32 --> Trying to get property 'password' of non-object
+#0 C:\xampp\htdocs\V2\app\Controllers\AuthController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AuthController->login()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-15 02:24:18 --> Class 'Config\App\Filters\Auth' not found
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('cekin', 'before')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-07-15 02:31:22 --> Trying to get property 'password' of non-object
+#0 C:\xampp\htdocs\V2\app\Controllers\AuthController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AuthController->login()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-15 02:43:50 --> Undefined property: App\Controllers\AuthController::$db
+#0 C:\xampp\htdocs\V2\app\Controllers\AuthController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\AuthController->login()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

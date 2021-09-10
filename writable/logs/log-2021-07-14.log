@@ -1,0 +1,27 @@
+CRITICAL - 2021-07-14 07:38:19 --> Invalid file: navbar.php
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('navbar.php')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('navbar', NULL, true)
+#2 C:\xampp\htdocs\V2\app\Views\Layout\master.php(47): CodeIgniter\View\View->include('navbar')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('Layout/master', Array, true)
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Cekin/data_ceki...', Array, true)
+#7 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(11): view('Cekin/data_ceki...')
+#8 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->index()
+#9 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#10 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-07-14 07:43:20 --> Invalid file: pages.php
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages.php')
+#1 C:\xampp\htdocs\V2\app\Views\Layout\master.php(262): CodeIgniter\View\View->render('pages')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('Layout/master', Array, true)
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Cekin/data_ceki...', Array, true)
+#6 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(11): view('Cekin/data_ceki...')
+#7 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->index()
+#8 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#9 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

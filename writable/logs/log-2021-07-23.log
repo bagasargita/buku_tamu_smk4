@@ -1,0 +1,294 @@
+CRITICAL - 2021-07-23 02:42:22 --> Undefined index: nama_guru
+#0 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 02:59:14 --> Undefined offset: 3
+#0 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 03:08:34 --> Undefined property: App\Controllers\CekinController::$input
+#0 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 03:14:42 --> Uninitialized string offset: 0
+#0 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 03:25:54 --> array_keys() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_keys() ex...', 'C:\\xampp\\htdocs...', 2173, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2173): array_keys('')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2103): CodeIgniter\Database\BaseBuilder->setInsertBatch(Array, '', true)
+#3 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(93): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-07-23 04:01:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert_id()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 04:02:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert_id()
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 04:20:53 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(63): explode(',', Array)
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-23 04:21:28 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(63): explode(',', Array)
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-23 04:22:11 --> Cannot use [] for reading
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 04:24:21 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(63): explode(',', Array)
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-23 04:25:01 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(63): explode(',', Array)
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-23 04:25:53 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(64): explode(',', Array)
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-23 04:26:26 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(64): explode(',', Array)
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-07-23 04:44:40 --> Undefined offset: 2
+#0 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 04:45:39 --> Undefined offset: 2
+#0 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 04:45:42 --> Undefined offset: 2
+#0 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 04:52:22 --> Undefined offset: 2
+#0 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 04:53:47 --> Undefined offset: 2
+#0 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 04:55:24 --> Undefined offset: 2
+#0 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 07:48:18 --> Undefined offset: 2
+#0 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 08:14:09 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 08:14:44 --> Call to a member function getRandomName() on string
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 08:15:30 --> Call to a member function getRandomName() on string
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 08:16:11 --> Call to a member function getRandomName() on string
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 08:17:47 --> Call to a member function getRandomName() on string
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 08:18:12 --> file_put_contents(C:\xampp\htdocs\V2\public\./assets/images/data:image/jpeg;base64,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.jpg): failed to open stream: Invalid argument
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(67): file_put_contents('C:\\xampp\\htdocs...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#4 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-07-23 08:31:02 --> Column 'jenkel' cannot be null
+CRITICAL - 2021-07-23 08:31:02 --> Column 'jenkel' cannot be null
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ce...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ce...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ce...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ce...', Array, false)
+#4 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(83): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-23 08:33:40 --> Call to a member function getRandomName() on string
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 08:34:06 --> Call to a member function getRandomName() on string
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 08:34:28 --> Call to a member function getRandomName() on string
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 08:35:53 --> Call to a member function getRandomName() on string
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 08:36:09 --> Call to a member function getRandomName() on string
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 08:36:49 --> Call to a member function getRandomName() on string
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-23 08:48:16 --> Call to a member function getRandomName() on string
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-07-23 08:50:07 --> Column 'jenkel' cannot be null
+CRITICAL - 2021-07-23 08:50:07 --> Column 'jenkel' cannot be null
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ce...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ce...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ce...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ce...', Array, false)
+#4 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(83): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-07-23 09:04:26 --> Column 'jenkel' cannot be null
+CRITICAL - 2021-07-23 09:04:26 --> Column 'jenkel' cannot be null
+#0 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ce...')
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ce...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ce...')
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ce...', Array, false)
+#4 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(84): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->create()
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-23 10:01:01 --> Undefined index: id_cekin
+#0 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->delete()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 10:04:42 --> Undefined index: id_cekin
+#0 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->delete()
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-23 22:52:06 --> Undefined index: status
+#0 C:\xampp\htdocs\V2\app\Views\Cekin\data_cekin.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Cekin/data_ceki...', Array, true)
+#4 C:\xampp\htdocs\V2\app\Controllers\CekinController.php(24): view('Cekin/data_ceki...', Array)
+#5 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\CekinController->index()
+#6 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekinController))
+#7 C:\xampp\htdocs\V2\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\V2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
